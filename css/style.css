@@ -589,6 +589,11 @@ display: block;
     font-size: 4rem;
     line-height: 5rem;
   }
+  /* tablet view end */
+
+
+
+    /* Mobile view start */
 }
 @media(max-width:500px){
     html{
@@ -611,4 +616,4 @@ display: block;
         justify-content: center;
     }
 }
-/* tablet view end */
+  /* Mobile view end */
