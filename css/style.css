@@ -302,8 +302,8 @@ padding: 1rem 0;
  background-attachment: fixed;
 }
 .pricing .box-container{
-    display: grid;
-   grid-template-columns: repeat(auto-fit,minmax(30rem 1fr));
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
@@ -604,6 +604,11 @@ display: block;
         padding: 3rem;
         margin-top: 2rem;
     }
-
+    .pricing .box-container{
+        display: grid;
+       grid-template-columns: repeat(auto-fit,minmax(30rem 1fr));
+        align-items: center;
+        justify-content: center;
+    }
 }
 /* tablet view end */
